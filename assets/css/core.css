@@ -118,7 +118,7 @@ span {
     color: #0B7077;
 }
 
-.crack-cat-1 h1 span{
+.crack-cat-1 h1 span {
     color: #FD661F;
 }
 
@@ -182,7 +182,7 @@ span {
     width: 100%;
 }
 
-.card {
+.card-1 {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -216,4 +216,456 @@ span {
 
 .card-content {
     padding: 10px;
+}
+
+/* Bottom form on image overlay */
+
+.form-bg-bottom {
+    position: relative;
+}
+
+.form-bg-bottom img {
+    width: 100%;
+    height: auto;
+}
+
+.container-btm-fm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* Ensures the image does not overflow the container */
+}
+
+.form-sec {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Ensure the form is above the image */
+    width: 300px;
+    /* Adjust the width as needed */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background for better visibility */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow effect */
+}
+
+.form-sec label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-sec input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Classroom-Offline */
+.container-fluid {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-left {
+    flex: 1;
+    padding-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col-left h2 {
+    margin-bottom: 10px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 80px;
+}
+
+.point img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.col-right {
+    flex: 1;
+}
+
+.col-right img {
+    width: 100%;
+    height: auto;
+}
+
+.classroom-offline {
+    padding: 70px;
+    background-color: #FD661F;
+    border-radius: 11.94px;
+
+}
+
+.classroom-offline-img img {
+    height: 10%;
+    width: 440px;
+}
+
+.classroom-offline h2 {
+    padding-left: 45px;
+    padding-bottom: 48.89px;
+}
+
+.classroom-container {
+    background-color: #F5F5F5;
+    margin: 100px;
+    width: calc(100% - 200px);
+    /* To accommodate the 100px margin on both sides */
+    border-radius: 40px;
+}
+
+/* Action call bottom */
+
+.container-action-call {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.image-action-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.action-call img {
+    border-radius: 14.76px;
+}
+
+.overlay-action-call {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overlay-action-call h2,
+.overlay-action-call p {
+    margin: 0;
+    text-align: left;
+    padding: 37px 84px 0px 130px;
+}
+
+.action-call .join-btn {
+    display: flex;
+    background-color: #3DCBB1;
+    width: 250px;
+    height: 59px;
+    border-radius: 4.25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-size: 22.85px;
+    margin-top: 55px;
+    margin-left: 135px;
+}
+
+/* Youtube promo section */
+
+.yt-container {
+    width: calc(100% - 80px);
+    /* Subtracting twice the margin value to maintain width */
+    background-color: #0B7077;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 40px;
+    /* Apply 40px margin on all sides */
+}
+
+
+.container-yt {
+    background-color: #0B7077;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.youtube-videos {
+    background-color: #0B7077;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.youtube-videos h2 {
+    color: white;
+    padding: 60px;
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.youtube-container iframe {
+    width: 100%;
+    height: 511px;
+}
+
+.container-small {
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    padding: 20px;
+    max-width: 700px;
+    margin-top: -20px;
+}
+
+.container-small h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.container-small h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.yt-views {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.yt-description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.crack-cat-icon {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.crack-cat-icon img {
+    height: 250px;
+    width: 250px;
+}
+
+/* Most Engaging */
+
+.most-engaging-container {
+    width: calc(100% - 80px);
+    background-color: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 40px;
+    padding: 60px;
+}
+
+.most-engaging-container h2 {
+    color: #0B7077;
+    font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
+}
+
+.me-row {
+    padding-top: 60px;
+}
+
+.card-engage img {
+    width: 100%;
+}
+
+.card-engage p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+/* Get subscription */
+
+.container-action-call {
+    position: relative;
+    max-width: 100%;
+}
+
+.image-action-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container-action-call img {
+    border-radius: 32px;
+}
+
+.overlay-action-call {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overlay-action-call h2,
+.overlay-action-call p {
+    margin: 0;
+    text-align: left;
+    padding-left: 125px;
+}
+
+.overlay-action-call h2 {
+    padding: 37px 84px 0px 130px;
+}
+
+.subscription-btn {
+    display: inline-block;
+    background-color: #3DCBB1;
+    width: 431.9px;
+    height: 85.06px;
+    border-radius: 4.25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-size: 32.85px;
+    margin-top: 55px;
+    margin-left: 135px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 85.06px;
+}
+
+.container-action-call-parent {
+    display: flex;
+    justify-content: center;
+}
+
+/* Faq section */
+.faq-box {
+    background-image: url('/assets/images/Group 237697.png');
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+
+.faq-sm-box {
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 150px;
+    color: white;
+    padding: 20px;
+    width: 1000px;
+    position: relative; 
+    z-index: 1; 
+}
+
+.question-btn {
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.card-body {
+    color: black;
+}
+
+.faq-main h2 {
+    color: black;
+    font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
+    font-size: 52.27px;
+    padding: 20px;
+}
+
+.btn-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+}
+
+.faq-box .faq-action-call {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+}
+
+/* Why Choose CAT */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: auto;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Product Sans Black';
+    font-size: 53.15px;
+}
+
+.explanation {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.icon {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Footer form */
+
+.footer-form-container {
+    background-image: url(/assets/images/footer-background.png);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 91vh;
+    background-position: center center;
 }
