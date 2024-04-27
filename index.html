@@ -17,74 +17,95 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <img style="padding-top: 15px;" class="navbar-logo" src="/assets/prepacademy 1.png" alt="">
+        <div class="navbar-logo">
+            <img src="/assets/prepacademy 1.png" alt="">
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav-toggle-custom" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Choose Your Language
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                <div class="text-left">
+                    <div>
+                        <button type="button"
+                            class="justify-center w-full rounded-md border border-zinc-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-zinc-700 hover:bg-zinc-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-100 focus:ring-indigo-500"
+                            id="menu-button" aria-expanded="true" aria-haspopup="true">
+                            Select Language
+                            <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
-                </li>
+                </div>
                 <a class="btn-black">Enquire Now</a>
             </ul>
         </div>
     </nav>
-    <div class="header">
-        <div class="left-section">
-            <h1>Make Yourself an IIM Alumini</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="header-points">
-                <img src="/assets/images/icons/Group 237640.png" alt="Icon" width="30" height="30">
-                <h3>CAT Online and Offline Classes. Cover your syllabus well in advance with a regular flow of live
-                    online or classroom classes.</h3>
-            </div>
-            <div class="header-points">
-                <img src="/assets/images/icons/Group 237641.png" alt="Icon" width="30" height="30">
-                <h3>Regular Tests. Chapter tests, part tests and Mock Tests are held regularly to help you introspect
-                </h3>
-            </div>
-            <div class="header-points">
-                <img src="/assets/images/icons/Group 237642.png" alt="Icon" width="30" height="30">
-                <h3>Mentoring. Regular mentoring by our esteemed Mentors from top engineering colleges.</h3>
-            </div>
-            <style>
-                .header-points {
-                    background-color: #333;
-                    color: #fff;
-                    display: flex;
-                    align-items: center;
-                    padding: 10px 20px;
-                }
 
-                .header-points img {
-                    margin-right: 10px;
-                    height: 150px;
-                    width: 150px;
-                }
-            </style>
-        </div>
-        <div class="right-section">
-            <div class="form-container">
-                <form id="myForm">
-                    <input type="text" class="form-input" placeholder="Name" required>
-                    <input type="email" class="form-input" placeholder="Email" required>
-                    <button type="submit" class="form-button">Submit</button>
-                </form>
+    <!-- Header -->
+    <section>
+        <div class="header">
+            <div class="left-section">
+                <div class="header-title">
+                    <h1>Make Yourself an <br>IIM Alumini</h1>
+                </div>
+                <div class="header-points">
+                    <img src="/assets/images/icons/Group 237640.png" alt="Icon" width="30" height="30">
+                    <h3>CAT Online and Offline Classes. Cover your syllabus well in advance with a regular flow of live
+                        online or classroom classes.</h3>
+                </div>
+                <div class="header-points">
+                    <img src="/assets/images/icons/Group 237641.png" alt="Icon" width="30" height="30">
+                    <h3>Regular Tests. Chapter tests, part tests and Mock Tests are held regularly to help you
+                        introspect
+                    </h3>
+                </div>
+                <div class="header-points">
+                    <img src="/assets/images/icons/Group 237642.png" alt="Icon" width="30" height="30">
+                    <h3>Mentoring. Regular mentoring by our esteemed Mentors from top engineering colleges.</h3>
+                </div>
+                <style>
+                    .header-points {
+                        color: #fff;
+                        background-color: transparent;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 20px;
+                    }
+
+                    .header-points img {
+                        margin-right: 10px;
+                        height: 150px;
+                        width: 150px;
+                    }
+                </style>
+            </div>
+            <div class="right-section">
+                <div class="form-container">
+                    <h3>Fast Track Your CAT Preparation</h3>
+                    <form id="myForm">
+                        <label for="name" class="label-input-form">Name*</label>
+                        <input type="text" class="form-input" placeholder="Name" required>
+                        <label for="mobile number" class="label-input-form">Mobile*</label>
+                        <input type="text" class="form-input" placeholder="Mobile Number" required>
+                        <label for="email" class="label-input-form">Email</label>
+                        <input type="email" class="form-input" placeholder="Email" required>
+                        <label for="pincode" class="label-input-form">Pincode</label>
+                        <input type="text" class="form-input" placeholder="Pincode" required>
+                        <label for="" class="label-input-form">School / Institute</label>
+                        <input type="text" class="form-input" placeholder="School / Institute" required>
+                        <div class="form-button-submit">
+                            <button type="submit" class="form-button">Request a Call Back</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="crack-cat-main">
         <div class="row">
@@ -106,11 +127,12 @@
         </div>
     </div>
 
-
+    <!-- Why Study with us -->
     <div class="why-us p-5">
         <div class="why-us-content">
             <h2>Why Study <span>With Us?</span></h2>
-            <p>Are you ready to conquer the world? Your CAT 2024 journey might seem daunting, but remember, every great
+            <p>Are you ready to conquer the world? Your CAT 2024 journey might seem daunting, but remember, every
+                great
                 achievement starts with a single step. Believe in yourself, because you hold the power to make your
                 dreams a
                 reality!</p>
@@ -123,21 +145,24 @@
                 <img src="/assets/images/icons/028-1.png" alt="Card Image 1">
                 <div class="card-content">
                     <h3>Innovative LIVE Platform</h3>
-                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.</p>
+                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.
+                    </p>
                 </div>
             </div>
             <div class="card card-1">
                 <img src="/assets/images/icons/028-2.png" alt="Card Image 1">
                 <div class="card-content">
                     <h3>Innovative LIVE Platform</h3>
-                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.</p>
+                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.
+                    </p>
                 </div>
             </div>
             <div class="card card-1">
                 <img src="/assets/images/icons/Vaccine.png" alt="Card Image 1">
                 <div class="card-content">
                     <h3>Innovative LIVE Platform</h3>
-                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.</p>
+                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.
+                    </p>
                 </div>
             </div>
 
@@ -145,33 +170,47 @@
                 <img src="/assets/images/icons/Vaccine2.png" alt="Card Image 1">
                 <div class="card-content">
                     <h3>Innovative LIVE Platform</h3>
-                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.</p>
+                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.
+                    </p>
                 </div>
             </div>
             <div class="card card-1">
                 <img src="/assets/images/icons/030-3.png" alt="Card Image 1">
                 <div class="card-content">
                     <h3>Innovative LIVE Platform</h3>
-                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.</p>
+                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.
+                    </p>
                 </div>
             </div>
             <div class="card card-1">
                 <img src="/assets/images/icons/030-4.png" alt="Card Image 1">
                 <div class="card-content">
                     <h3>Innovative LIVE Platform</h3>
-                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.</p>
+                    <p>Our custom innovative LIVE platform for classes make students keep in pace with the contents.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Bottom form on image overlay -->
     <div class="container-btm-fm">
         <div class="form-sec">
+            <h3>Fast track Your CAT Preparation</h3>
             <form action="action.php">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name">
-                <label for="number">Phone Number</label>
-                <input type="text" name="number" id="number">
+                <label for="name" class="label-input-form">Name*</label>
+                <input type="text" class="form-input" placeholder="Name" required>
+                <label for="mobile number" class="label-input-form">Mobile*</label>
+                <input type="text" class="form-input" placeholder="Mobile Number" required>
+                <label for="email" class="label-input-form">Email</label>
+                <input type="email" class="form-input" placeholder="Email" required>
+                <label for="pincode" class="label-input-form">Pincode</label>
+                <input type="text" class="form-input" placeholder="Pincode" required>
+                <label for="" class="label-input-form">School / Institute</label>
+                <input type="text" class="form-input" placeholder="School / Institute" required>
+                <div class="form-button-submit">
+                    <button type="submit" class="form-button">Request a Call Back</button>
+                </div>
             </form>
         </div>
         <div class="form-bg-bottom">
@@ -180,22 +219,26 @@
     </div>
 
     <!-- Classroom-Offline -->
-    <div class="container-fluid justify-content-center">
+    <div class="container-fluid container-fluid-custom justify-content-center">
         <div class="classroom-container">
-            <div class="row">
+            <div class="row bg-white">
                 <div class="col col-left classroom-offline">
                     <h2>Classroom-Offline</h2>
                     <div class="point">
                         <img src="/assets/images/icons/Group 237640.png" alt="Icon 1">
-                        250 + Hours on CAT sessions & on non-CAT concepts
+                        <h3>250 + Hours on CAT sessions & on non-CAT concepts</h3>
                     </div>
                     <div class="point">
                         <img src="/assets/images/icons/Group 237641.png" alt="Icon 2">
-                        30 CAT + 70 non-CAT mocks 5600 topic-wise practice questions physical study material included
+                        <h3>30 CAT + 70 non-CAT mocks 5600 topic-wise practice questions physical study material
+                            included</h3>
                     </div>
                     <div class="point">
                         <img src="/assets/images/icons/Group 237642.png" alt="Icon 3">
-                        45 CAT + 48 non-CAT Sectional tests Mentorship Programs GD/PI
+                        <h3>45 CAT + 48 non-CAT Sectional tests Mentorship Programs GD/PI</h3>
+                    </div>
+                    <div class="class-offline-btn">
+                        <a href="#">Purchase Now</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-right classroom-offline-img">
@@ -205,61 +248,55 @@
         </div>
     </div>
 
+
     <!-- Action call bottom -->
     <div class="container-action-call action-call">
         <img src="/assets/images/Frame 237680.png" alt="Image" class="image-action-bg">
         <div class="overlay-action-call">
             <h2>Join Prep Academy now to get 35% off</h2>
-            <p>Join with Prep Academy and achieve your dream career. For getting the exciting offers for the upcoming
+            <p>Join with Prep Academy and achieve your dream career. For getting the <br>exciting offers for the
+                upcoming
                 batches enrol today itself.</p>
             <a class="join-btn">Join Prep Academy</a>
         </div>
     </div>
 
     <!-- Youtube promo section -->
-    <div class="yt-container">
-        <div class="row justify-content-center" style="height: 100vh;">
-            <div class="col-lg-8">
-                <div class="container-yt">
-                    <div class="row">
-                        <div class="col">
-                            <div class=" youtube-videos">
-                                <h2>Crack CAT & Other MBA Entrance Tests with Unacademy</h2>
-                                <div class="youtube-container">
-                                    <iframe width="912" height="511.92" src="https://www.youtube.com/embed/FYZ-vUze-PU"
-                                        title="Best CUET Colleges for English in India and Career Opportunities."
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="crack-cat-icon">
-                                <img src="/assets/images/animations/keyboard-typing-ETm4ELrLvt.png" alt="">
-                            </div>
-                            <div class="container-small">
-                                <h3>CAT 2024 SUCCESS MANTRA</h3>
-                                <h2>Crack CAT & Other MBA Entrance Tests with Prep Academy</h2>
-                                <p class="yt-views">576,969 views • 3 weeks ago</p>
-                                <p class="yt-description">Stay in the loop and never miss out! Subscribe to our YouTube
-                                    channel for
-                                    the latest updates and insightful classes. We keep updating exam notifications,
-                                    syllabus, and
-                                    other
-                                    educational videos related to CAT exam preparations.</p>
-                            </div>
+    <section>
+        <div class="container-youtube-promo">
+            <div class="row youtube-promo">
+                <div class="col">
+                    <h2>Crack CAT & Other MBA <br>Entrance Tests with Unacademy</h2>
+                    <div class="yt-promo-video">
+                        <iframe width="100%" height="412" src="https://www.youtube.com/embed/GjPIvvxIQME"
+                            title="Cute Pika Steals Food From Neighbours | 4K UHD | Mammals | BBC Earth" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+                <div class="col align-self-end">
+                    <div class="small-yt-container">
+                        <div class="p-5">
+                            <h4>CAT 2024 SUCCESS MANTRA</h4>
+                            <h2>Crack CAT & Other MBA Entrance Tests with Prep Acdemy</h2>
+                            <h3>576,969 views . 3 weeks ago</h3>
+                            <p>Stay in the loop and never miss out! Subscribe to our YouTube channel for the latest
+                                updates
+                                and insightful classes. We are keep updating exam notification ,syllabus and other
+                                educational videos all related to CAT exam preparatins.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
 
     <!-- Most Engaging -->
-    <div class="most-engaging-container">
+    <!-- <div class="most-engaging-container">
         <div class="max-w-screen-xl mx-auto px-4 py-8">
-            <h2 class="text-3xl font-bold text-left mb-8">Most Engaging CAT & Other MBA<br>Entrance Classes at all time.
+            <h2 class="text-3xl font-bold text-left mb-8">Most Engaging CAT & Other MBA<br>Entrance Classes at all
+                time.
             </h2>
             <div class="row justify-content-center me-row">
                 <div class="col-sm-6 card-engage col-md-4 col-lg-2 mb-4">
@@ -374,7 +411,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Action call bottom -->
     <div class="container-action-call-parent">
@@ -392,8 +429,8 @@
     <!-- Faq section -->
     <section class="faq-main">
         <div class="faq-box">
-            <p class="faq-action-call" style="color: white;">My question is not here</p>
-            <button class="btn btn-primary btn-bottom-right">
+            <p class="faq-action-call">My question is not here</p>
+            <button class="btn-bottom-right">
                 Connect Us <i class="fas fa-arrow-right p-1"></i>
             </button>
 
@@ -413,7 +450,8 @@
 
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed mi
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
                                 sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
                                 ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
@@ -431,7 +469,8 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed mi
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
                                 sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
                                 ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
@@ -450,7 +489,8 @@
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed mi
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
                                 sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
                                 ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
@@ -469,7 +509,8 @@
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed mi
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
                                 sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
                                 ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
@@ -488,7 +529,8 @@
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed mi
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
                                 sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
                                 ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
@@ -504,9 +546,14 @@
             <div class="content">
                 <div class="title">Why choose CAT Exam? How can the IIM brand fast track your career?</div>
                 <div class="explanation">
-                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 1" class="icon"> Point 1 of explanation goes here.</p>
-                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 2" class="icon"> Point 2 of explanation goes here.</p>
-                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 3" class="icon"> Point 3 of explanation goes here.</p>
+                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 1" class="icon"> Better career options
+                    </p>
+                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 2" class="icon"> Salary Difference
+                        between an IIM graduate and others</p>
+                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 3" class="icon"> Develop your business
+                        and entrepreneurship skills</p>
+                    <p><img src="/assets/images/icons/arrow-right.png" alt="Icon 3" class="icon"> Strengthen your people
+                        network and job security</p>
                 </div>
             </div>
             <div class="image-container">
@@ -518,14 +565,53 @@
     <div class="footer-form-container">
         <div class="right-section">
             <div class="form-container">
-                <form id="myForm">
+                <form action="action.php">
+                    <label for="name" class="label-input-form">Name*</label>
                     <input type="text" class="form-input" placeholder="Name" required>
+                    <label for="mobile number" class="label-input-form">Mobile*</label>
+                    <input type="text" class="form-input" placeholder="Mobile Number" required>
+                    <label for="email" class="label-input-form">Email</label>
                     <input type="email" class="form-input" placeholder="Email" required>
-                    <button type="submit" class="form-button">Submit</button>
+                    <label for="pincode" class="label-input-form">Pincode</label>
+                    <input type="text" class="form-input" placeholder="Pincode" required>
+                    <label for="" class="label-input-form">School / Institute</label>
+                    <input type="text" class="form-input" placeholder="School / Institute" required>
+                    <div class="form-button-submit">
+                        <button type="submit" class="form-button">Request a Call Back</button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
+
+    <section style="background-color: black; display: flex;">
+        <div style="width: 50%;" class="footer-container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col">
+                        <h2>Do you have <br>any questions?</h2>
+                        <h4>Feel free to send us your questions or request a free consultation.</h4>
+                        <a href="#" class="footer-action-call">GET A CALLBACK</a>
+                        <div class="footer-info">
+                            <div class="footer-mail">
+                                <p>Email</p>
+                                <h5>info@prepacademy.in</h5>
+                            </div>
+                            <div class="footer-hours">
+                                <p>OPENING HOURS</p>
+                                <h5>09:00 AM To 05:30 PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Are you ready to conquer the world? Your CAT 2024 journey might seem daunting, but remember,
+                every great achievement starts with a single step.</p>
+            <img src="/assets/images/logo-footer.png" alt="" class="logo-footer">
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>

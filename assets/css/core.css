@@ -1,22 +1,42 @@
 /* ********************************** */
 
 body {
-    font-family: 'Product Sans Black', Arial, sans-serif;
-    margin: 0;
+    font-family: 'Product Sans Black';
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 0;
     background-color: #F5F5F5;
 }
 
 
 /* Navbar */
+
 .navbar-logo {
-    width: 257px;
-    height: 74.06px;
+    width: 200px;
 }
 
-.nav-toggle-custom {
-    background-color: orange;
+.navbar-logo img {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
 }
+
+.select-language-container {
+    height: auto;
+    background-color: orange;
+    width: 100%;
+}
+
+.navbar-nav svg {
+    height: 40px;
+}
+
+.navbar-nav button {
+    color: black;
+    font-family: 'Product Sans Bold', Arial, Helvetica, sans-serif;
+    font-size: 19.26px;
+}
+
 
 .btn-black {
     display: flex;
@@ -28,6 +48,10 @@ body {
     text-align: center;
     padding: 10px 20px 10px 20px;
     margin-left: 20px;
+    height: 57.34px;
+    width: 193.34px;
+    font-family: 'Product Sans Black';
+    font-size: 19.26px;
 }
 
 /* Header */
@@ -40,7 +64,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    height: 91vh;
+    height: auto;
     background-position: center center;
 }
 
@@ -57,8 +81,22 @@ body {
 
 /* Form styles */
 .form-container {
-    max-width: 300px;
+    max-width: 607.17px;
     width: 100%;
+    background-color: white;
+    padding: 46px 46px 46px 46px;
+    border-radius: 13.57px;
+}
+
+.form-container .label-input-form {
+    color: black;
+}
+
+.form-container h3 {
+    color: black;
+    padding-bottom: 28px;
+    font-family: 'Product Sans Black';
+    text-align: left;
 }
 
 .form-input {
@@ -68,19 +106,34 @@ body {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: 'Product Sans', Arial, Helvetica, sans-serif;
 }
 
-.form-button {
-    background-color: #4CAF50;
+.form-button-submit .form-button {
+    background-color: #0B7077;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
 }
 
 .form-button:hover {
     background-color: #45a049;
+}
+
+.header-title h1 {
+    font-family: 'Product Sans Black';
+    font-size: 62.02px;
+    color: white;
+    padding-left: 62.02px;
+}
+
+.header-title p {
+    font-family: 'Product Sans Black';
+    font-size: 62.02px;
+    color: white;
 }
 
 /* Crack CAT MBA */
@@ -167,6 +220,7 @@ span {
 
 .why-us p {
     margin-top: 20px;
+    font-family: 'Product Sans', Arial, Helvetica, sans-serif;
 }
 
 .container-lg {
@@ -183,8 +237,6 @@ span {
 }
 
 .card-1 {
-    border: 1px solid #ccc;
-    border-radius: 8px;
     overflow: hidden;
     background-color: white;
     text-align: center;
@@ -193,6 +245,8 @@ span {
     margin: 0 10px;
     margin-top: 23.55px;
     padding: 10px;
+    border: 0;
+    border-radius: 21.57px;
 }
 
 .card img {
@@ -203,13 +257,19 @@ span {
     margin-top: 79.69px;
 }
 
-.card h3 {
-    font-size: 38.82px;
+.card-1 h3 {
+    font-size: 30px;
     font-family: 'Product Sans Bold', Arial, sans-serif;
     padding-bottom: 20px;
+    color: #FD661F;
 }
 
-.card p {
+.card-1 p {
+    font-family: 'Product Sans', Arial, Helvetica, sans-serif;
+    font-size: 25.88px;
+}
+
+.card-1 p {
     font-size: 20px;
     font-family: 'Product Sans', Arial, sans-serif;
 }
@@ -236,24 +296,27 @@ span {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    /* Ensures the image does not overflow the container */
 }
 
 .form-sec {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    /* Ensure the form is above the image */
-    width: 300px;
-    /* Adjust the width as needed */
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Semi-transparent background for better visibility */
+    width: 607px;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Optional: Add a shadow effect */
+    height: 550px;
+}
+
+.form-sec h3 {
+    font-family: 'Product Sans Black';
+    font-size: 33.92px;
+    color: black;
+    padding-bottom: 20px;
 }
 
 .form-sec label {
@@ -291,12 +354,17 @@ span {
 .point {
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
-    height: 80px;
+    margin-bottom: 40px;
+    height: auto;
+}
+
+.point h3 {
+    font-size: 20px;
+    font-family: 'Product Sans', Arial, Helvetica, sans-serif;
 }
 
 .point img {
-    width: 150px;
+    width: 60px;
     margin-right: 10px;
 }
 
@@ -313,16 +381,16 @@ span {
     padding: 70px;
     background-color: #FD661F;
     border-radius: 11.94px;
+    color: white;
 
 }
 
 .classroom-offline-img img {
     height: 10%;
-    width: 440px;
+    width: 100%;
 }
 
 .classroom-offline h2 {
-    padding-left: 45px;
     padding-bottom: 48.89px;
 }
 
@@ -332,6 +400,29 @@ span {
     width: calc(100% - 200px);
     /* To accommodate the 100px margin on both sides */
     border-radius: 40px;
+    width: 80%;
+}
+
+.classroom-container .class-offline-btn a {
+    text-decoration: none;
+    background-color: #0B7077;
+    color: white !important;
+    width: 200px;
+    padding: 23px;
+    border-radius: 11.94px;
+}
+
+.classroom-container .class-offline-btn {
+    margin-top: 50px;
+}
+
+.container-fluid-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 0px;
+    background-color: white;
 }
 
 /* Action call bottom */
@@ -370,8 +461,15 @@ span {
     padding: 37px 84px 0px 130px;
 }
 
+.overlay-action-call p {
+    color: white;
+    font-family: 'Product Sans';
+    font-size: 23.62px;
+}
+
 .action-call .join-btn {
     display: flex;
+    color: white;
     background-color: #3DCBB1;
     width: 250px;
     height: 59px;
@@ -387,78 +485,65 @@ span {
 
 /* Youtube promo section */
 
-.yt-container {
-    width: calc(100% - 80px);
-    /* Subtracting twice the margin value to maintain width */
-    background-color: #0B7077;
-    border-radius: 30px;
-    overflow: hidden;
-    margin: 40px;
-    /* Apply 40px margin on all sides */
-}
-
-
-.container-yt {
-    background-color: #0B7077;
-    padding: 20px;
-    border-radius: 30px;
-}
-
-.youtube-videos {
+.container-youtube-promo {
     background-color: #0B7077;
     border-radius: 32px;
     overflow: hidden;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-.youtube-videos h2 {
-    color: white;
-    padding: 60px;
-    margin: 0;
-    font-size: 28px;
-    line-height: 1.5;
-}
-
-.youtube-container iframe {
-    width: 100%;
-    height: 511px;
-}
-
-.container-small {
+.small-yt-container {
     background-color: white;
-    border-radius: 30px 30px 0 0;
-    padding: 20px;
-    max-width: 700px;
-    margin-top: -20px;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    bottom: 0;
 }
 
-.container-small h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
+.youtube-promo h2 {
+    font-family: 'Product Sans Black';
+    color: white;
+    font-size: 53.15px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
 }
 
-.container-small h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
+.youtube-promo .small-yt-container h2 {
+    font-family: 'Product Sans Black';
+    color: black;
+    font-size: 40px;
+    padding-bottom: 10px;
+
 }
 
-.yt-views {
-    font-size: 16px;
-    margin-bottom: 10px;
+.youtube-promo .small-yt-container h3 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 20.8px;
+
 }
 
-.yt-description {
-    font-size: 18px;
-    line-height: 1.6;
+.youtube-promo .small-yt-container h4 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 20.8px;
+
 }
 
-.crack-cat-icon {
-    text-align: right;
-    padding-right: 20px;
+.youtube-promo .small-yt-container p {
+    font-family: 'Product Sans';
+    color: black;
+    font-size: 24px;
+
 }
 
-.crack-cat-icon img {
-    height: 250px;
-    width: 250px;
+.yt-promo-video {
+    border-radius: 30px 40px 20px 30px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    height: auto;
+    width: 90%;
 }
 
 /* Most Engaging */
@@ -474,7 +559,7 @@ span {
 
 .most-engaging-container h2 {
     color: #0B7077;
-    font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
+    font-family: 'Product Sans Black';
 }
 
 .me-row {
@@ -495,6 +580,7 @@ span {
 .container-action-call {
     position: relative;
     max-width: 100%;
+    margin-top: 100px;
 }
 
 .image-action-bg {
@@ -549,9 +635,14 @@ span {
 .container-action-call-parent {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 /* Faq section */
+.faq-main {
+    margin-bottom: 100px;
+}
+
 .faq-box {
     background-image: url('/assets/images/Group 237697.png');
     height: 700px;
@@ -560,17 +651,18 @@ span {
     justify-content: left;
     align-items: center;
     position: relative;
+    border-radius: 30px;
 }
 
 .faq-sm-box {
-    background-color: black;
+    background-color: white;
     border-radius: 30px;
     margin-left: 150px;
     color: white;
     padding: 20px;
     width: 1000px;
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
 }
 
 .question-btn {
@@ -585,11 +677,16 @@ span {
     color: black;
 }
 
+.faq-main button {
+    color: white;
+}
+
 .faq-main h2 {
-    color: black;
-    font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'Product Sans Black';
     font-size: 52.27px;
     padding: 20px;
+    background-color: #0B7077;
 }
 
 .btn-bottom-right {
@@ -602,7 +699,29 @@ span {
 .faq-box .faq-action-call {
     position: absolute;
     bottom: 20px;
-    right: 200px;
+    right: 250px;
+    color: white;
+    font-family: 'Product Sans';
+}
+
+.faq-box .btn-bottom-right {
+    background-color: #0B7077;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.card-header {
+    background-color: #0B7077 !important;
+    color: white;
+    font-family: 'Product Sans';
+    text-decoration: none;
+}
+
+#faqAccordion .card {
+    background-color: #0B7077;
 }
 
 /* Why Choose CAT */
@@ -626,6 +745,7 @@ span {
     margin-bottom: 10px;
     font-family: 'Product Sans Black';
     font-size: 53.15px;
+    color: #FD661F;
 }
 
 .explanation {
@@ -649,7 +769,9 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; 
+    min-height: 100vh;
+    border-radius: 30px;
+    margin-bottom: 100px;
 }
 
 .icon {
@@ -666,6 +788,96 @@ span {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    height: 91vh;
+    height: 120vh;
     background-position: center center;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.footer {
+    width: 50%;
+}
+
+.footer-container h2,
+.footer-container h4,
+.footer-container h5,
+.footer-container p,
+.footer-container .footer a {
+    font-family: 'Product Sans Black';
+}
+
+.footer-container h2 {
+    padding: 10px;
+}
+
+.footer-container h4 {
+    padding-bottom: 20px;
+}
+
+.footer-container p {
+    opacity: .7;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-container .footer a {
+    background-color: #DB2F15;
+    text-decoration: none;
+    color: white;
+    padding: 17.33px;
+    border-radius: 10.67px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.footer-mail,
+.footer-hours {
+    flex-basis: 50%;
+}
+
+.footer-mail p,
+.footer-hours p {
+    margin: 0;
+}
+
+.footer-mail h5,
+.footer-hours h5 {
+    margin-top: 5px;
+}
+
+.footer-right {
+    align-self: flex-end;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.footer-right p {
+    align-self: flex-end;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 50px;
+    width: 50%;
+    color: white;
+
 }

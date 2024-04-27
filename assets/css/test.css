@@ -1,0 +1,80 @@
+/* Faq section */
+.faq-box {
+    background-image: url('/assets/images/Group 237697.png');
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+
+.faq-sm-box {
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 150px;
+    color: white;
+    padding: 20px;
+    width: 1000px;
+    position: relative;
+    z-index: 1;
+}
+
+.question-btn {
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.card-body {
+    color: black;
+}
+
+.faq-main button {
+    color: white;
+}
+
+.faq-main h2 {
+    color: white;
+    font-family: 'Product Sans Black';
+    font-size: 52.27px;
+    padding: 20px;
+    background-color: #0B7077;
+}
+
+.btn-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+}
+
+.faq-box .faq-action-call {
+    position: absolute;
+    bottom: 20px;
+    right: 250px;
+    color: white;
+    font-family: 'Product Sans';
+}
+
+.faq-box .btn-bottom-right {
+    background-color: #0B7077;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.card-header {
+    background-color: #0B7077 !important;
+    color: white;
+    font-family: 'Product Sans';
+    text-decoration: none;
+}
+
+#faqAccordion .card {
+    background-color: #0B7077;
+}

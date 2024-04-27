@@ -5,122 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title and Explanation Section</title>
-    <style>
-        .footer-container {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            background-color: black;
-            color: white;
-            padding-left: 50px;
-            padding-top: 25px;
-            width: 100%;
-        }
-
-        .footer {
-            width: 50%;
-        }
-
-        .footer-container h2,
-        .footer-container h4,
-        .footer-container h5,
-        .footer-container p,
-        .footer-container .footer a {
-            font-family: 'Product Sans Black', Arial, Helvetica, sans-serif;
-        }
-
-        .footer-container h2 {
-            padding: 10px;
-        }
-
-        .footer-container h4 {
-            padding-bottom: 20px;
-        }
-
-        .footer-container p {
-            opacity: .7;
-            margin: 0;
-            padding-bottom: 10px;
-        }
-
-        .footer-container .footer a {
-            background-color: #DB2F15;
-            text-decoration: none;
-            color: white;
-            padding: 17.33px;
-            border-radius: 10.67px;
-        }
-
-        .footer-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding-top: 20px;
-            width: 100%;
-        }
-
-        .footer-mail,
-        .footer-hours {
-            flex-basis: 50%;
-        }
-
-        .footer-mail p,
-        .footer-hours p {
-            margin: 0;
-        }
-
-        .footer-mail h5,
-        .footer-hours h5 {
-            margin-top: 5px;
-        }
-
-        .footer-right {
-            align-self: flex-end;
-            margin-top: 20px;
-            text-align: right;
-            padding-right: 50px;
-            width: 50%;
-        }
-
-        .footer-right p {
-            align-self: flex-end;
-            margin-top: 20px;
-            text-align: right;
-            padding-right: 50px;
-            width: 50%;
-            color: white;
-            
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
-    <section style="background-color: black; display: flex;">
-        <div style="width: 50%;" class="footer-container">
-            <div class="footer">
-                <div class="row">
-                    <div class="col">
-                        <h2>Do you have <br>any questions?</h2>
-                        <h4>Feel free to send us your questions or request a free consultation.</h4>
-                        <a href="#" class="footer-action-call">GET A CALLBACK</a>
-                        <div class="footer-info">
-                            <div class="footer-mail">
-                                <p>Email</p>
-                                <h5>info@prepacademy.in</h5>
+
+    <section class="faq-main">
+        <div class="faq-box">
+            <p class="faq-action-call">My question is not here</p>
+            <button class="btn-bottom-right">
+                Connect Us <i class="fas fa-arrow-right p-1"></i>
+            </button>
+
+            <div class="faq-sm-box">
+                <div class="accordion" id="faqAccordion">
+                    <div class="card">
+                        <h2>Do you have questions?</h2>
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link question-btn" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What happens if you don't attempt all questions in
+                                    the CAT exam?
+                                </button>
+                            </h3>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
+                                sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
+                                ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
-                            <div class="footer-hours">
-                                <p>OPENING HOURS</p>
-                                <h5>09:00 AM To 05:30 PM</h5>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link question-btn" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Is there any restriction on the number of attempts for the...
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
+                                sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
+                                ullamcorper. Purus imperdiet et non eu. Quisque.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link question-btn" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How difficult is to crack a CAT exam?
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#faqAccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
+                                sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
+                                ullamcorper. Purus imperdiet et non eu. Quisque.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link question-btn" type="button" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What is the best preparation strategy for reading...
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                            data-parent="#faqAccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
+                                sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
+                                ullamcorper. Purus imperdiet et non eu. Quisque.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link question-btn" type="button" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Setting Goals and Maintaining Focus:
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                            data-parent="#faqAccordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur. Senectus suspendisse enim cras porttitor sed
+                                mi
+                                sit scelerisque. Morbi dui interdum tristique nunc ornare. Risus ac dolor fermentum
+                                ullamcorper. Purus imperdiet et non eu. Quisque.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-right">
-            <p>Are you ready to conquer the world? Your CAT 2024 journey might seem daunting, but remember,
-                every great achievement starts with a single step.</p>
-            <img src="/assets/images/logo-footer.png" alt="" class="logo-footer">
         </div>
     </section>
 </body>
