@@ -64,7 +64,7 @@ body {
 }
 
 .header {
-    background-image: url('https://prepacademy.in/prepare-for-cat/agency/agency-one/prep-landing-page/assets/images/header-bg.png');
+    background-image: url('/assets/images/header-bg.png');
     /* background-color: #333; */
     color: #fff;
     justify-content: space-between;
@@ -176,6 +176,7 @@ body {
 
 .crack-cat-main img {
     margin-top: 40px;
+    width: 80%;
 }
 
 .crack-cat-1 {
@@ -235,7 +236,6 @@ span {
 
 .why-us h2, span {
     font-family: 'Product Sans Black', Arial, sans-serif;
-    font-size: 200%;
 }
 
 .why-us span {
@@ -656,6 +656,11 @@ span {
     line-height: 85.06px;
 }
 
+.subscription-btn:hover {
+    color: black;
+    text-decoration: none;
+}
+
 .container-action-call-parent {
     display: flex;
     justify-content: center;
@@ -770,6 +775,7 @@ span {
     font-family: 'Product Sans Black';
     font-size: 53.15px;
     color: #FD661F;
+    line-height: 1;
 }
 
 .explanation {
@@ -806,17 +812,18 @@ span {
 /* Footer form */
 
 .footer-form-container {
-    background-image: url(assets/images/footer-background.png);
+    background-image: url('/assets/images/footer-background.png');
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    height: 120vh;
+    height: auto;
     background-position: center center;
     margin-bottom: 100px;
     border-radius: 30px;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 /* Footer */
