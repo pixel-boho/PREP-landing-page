@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Product Sans Black';
-    src: url('/assets/fonts/product-sans/ProductSans-Black.ttf') format('truetype');
+    src: url('assets/fonts/product-sans/ProductSans-Black.ttf') format('truetype');
     /* Additional font styles */
     font-weight: normal;
     font-style: normal;
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Product Sans Light';
-    src: url('/assets/fonts/product-sans/ProductSans-Light.ttf') format('truetype');
+    src: url('assets/fonts/product-sans/ProductSans-Light.ttf') format('truetype');
     /* Additional font styles */
     font-weight: normal;
     font-style: normal;
@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: 'Product Sans';
-    src: url('/assets/fonts/product-sans/ProductSans-Regular.ttf') format('truetype');
+    src: url('assets/fonts/product-sans/ProductSans-Regular.ttf') format('truetype');
     /* Additional font styles */
     font-weight: normal;
     font-style: normal;
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: 'Product Sans Bold';
-    src: url('/assets/fonts/product-sans/ProductSans-Bold.ttf') format('truetype');
+    src: url('assets/fonts/product-sans/ProductSans-Bold.ttf') format('truetype');
     /* Additional font styles */
     font-weight: normal;
     font-style: normal;

@@ -57,12 +57,16 @@ body {
 
 /* Header */
 
+.container-header {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
 .header {
-    background-image: url(/assets/images/header-bg.png);
+    background-image: url('https://prepacademy.in/prepare-for-cat/agency/agency-one/prep-landing-page/assets/images/header-bg.png');
     /* background-color: #333; */
     color: #fff;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     height: auto;
@@ -219,7 +223,7 @@ span {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 300px;
+    height: 200px;
     margin-top: 100px;
 }
 
@@ -802,7 +806,7 @@ span {
 /* Footer form */
 
 .footer-form-container {
-    background-image: url(/assets/images/footer-background.png);
+    background-image: url(assets/images/footer-background.png);
     color: #fff;
     display: flex;
     align-items: center;
