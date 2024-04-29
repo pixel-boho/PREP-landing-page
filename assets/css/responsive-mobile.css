@@ -1,0 +1,212 @@
+@media only screen and (max-width: 390px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar-nav button {
+        padding: 0px;
+    }
+
+    .navbar-lang-button {
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .btn-black {
+        display: none;
+    }
+
+    /* Header */
+
+    .header {
+        margin-top: 0px;
+    }
+
+    .header-title h1 {
+        font-size: 240%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .header-points img {
+        margin-right: 10px;
+        height: 100%;
+        width: 40px;
+    }
+
+    .form-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Crack CAT MBA */
+    .crack-cat-1 h2 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .crack-cat-1 h1,
+    span {
+        font-size: 100%;
+    }
+
+    .crack-cat-1 h1 {
+        color: #0B7077;
+        font-size: 300%;
+    }
+
+    .crack-cat-1 h1 span {
+        color: #FD661F;
+    }
+
+    .crack-cat-main img {
+        width: calc(100% - 20px);
+        min-width: 200px;
+        margin: 10px;
+        overflow: hidden;
+    }
+
+    /* Why Study With Us */
+
+    .why-us h2 {
+        font-size: 250%;
+    }
+
+    .why-study-with .p-5 {
+        padding: 0;
+    }
+
+    /* Bottom Form */
+
+    .form-bg-bottom img {
+        display: none;
+    }
+
+    /* Classroom-Offline */
+
+    .classroom-offline {
+        padding: 40px;
+    }
+
+    .classroom-offline h2 {
+        font-size: 150%;
+        min-width: 220px;
+        padding-bottom: 15px;
+    }
+
+    .point h3 {
+        font-size: 14px;
+    }
+
+    .point img {
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .classroom-container .class-offline-btn {
+        margin: 0;
+        text-align: center;
+    }
+
+    .container-action-call {
+        background-image: url('/assets/images/Frame\ 237680\ mobile.png');
+        height: 61vh;
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .overlay-action-call h2,
+    .overlay-action-call p {
+        font-size: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .action-call .join-btn {
+        margin-top: 28px;
+        margin-left: 0px;
+    }
+
+    .overlay-action-call {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-left: 0;
+    }
+
+    /* Youtube Promo Section */
+
+    .youtube-promo .small-yt-container h2 {
+        font-size: 20px;
+    }
+
+    .youtube-promo h2 {
+        font-size: 100%;
+        min-width: 318px;
+        text-align: center;
+
+    }
+
+    /* Why Choose CAT */
+
+    .title {
+        font-size: 150%;
+        min-width: 300px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    /* footer */
+    .footer-container {
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+
+    .footer-container h2 {
+        padding: 0;
+    }
+
+    .footer-container .footer a {
+        width: 200px;
+        display: flex;
+    }
+
+    .card-header {
+        padding: 0;
+    }
+
+    .faq-sm-box {
+        margin-top: 50px;
+    }
+
+    .faq-main h2 {
+        font-size: 180%;
+        text-align: center;
+    }
+
+    .faq-box .faq-action-call {
+        text-align: center;
+    }
+
+    /* Subscription */
+
+    .subscription-btn {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 300px;
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container-action-call-parent {
+        margin-top: 40px;
+    }
+
+    .container-action-call-parent {
+        margin-bottom: 50px;
+    }
+
+}

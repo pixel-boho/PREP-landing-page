@@ -35,6 +35,7 @@ body {
     color: black;
     font-family: 'Product Sans Bold', Arial, Helvetica, sans-serif;
     font-size: 19.26px;
+    padding: 16px;
 }
 
 
@@ -66,6 +67,27 @@ body {
     padding: 10px 20px;
     height: auto;
     background-position: center center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #007bff;
+}
+
+.header-points {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header-points img {
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-points h3 {
+    font-size: 100%;
+    font-family: 'Product Sans';
 }
 
 .left-section {
@@ -125,9 +147,9 @@ body {
 
 .header-title h1 {
     font-family: 'Product Sans Black';
-    font-size: 62.02px;
+    font-size: 400%;
     color: white;
-    padding-left: 62.02px;
+    margin-bottom: 20px;
 }
 
 .header-title p {
@@ -150,7 +172,6 @@ body {
 
 .crack-cat-main img {
     margin-top: 40px;
-
 }
 
 .crack-cat-1 {
@@ -159,7 +180,7 @@ body {
 }
 
 .crack-cat-1 h2 {
-    font-size: 53.5px;
+    font-size: 250%;
 }
 
 .crack-cat-1 h1,
@@ -198,20 +219,19 @@ span {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 250px;
-    margin-top: 40px;
+    height: 300px;
+    margin-top: 100px;
 }
 
 .why-us-content {
-    width: 50%;
+    width: 80%;
     max-width: 800px;
     height: 100px;
 }
 
-.why-us h2,
-span {
+.why-us h2, span {
     font-family: 'Product Sans Black', Arial, sans-serif;
-    font-size: 69.02px;
+    font-size: 200%;
 }
 
 .why-us span {
@@ -296,6 +316,7 @@ span {
     height: 100vh;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .form-sec {
@@ -458,7 +479,6 @@ span {
 .overlay-action-call p {
     margin: 0;
     text-align: left;
-    padding: 37px 84px 0px 130px;
 }
 
 .overlay-action-call p {
@@ -479,8 +499,8 @@ span {
     align-items: center;
     font-family: 'Product Sans', Arial, sans-serif;
     font-size: 22.85px;
-    margin-top: 55px;
-    margin-left: 135px;
+    margin-left: 124px;
+    margin-top: 20px;
 }
 
 /* Youtube promo section */
@@ -792,6 +812,7 @@ span {
     background-position: center center;
     margin-bottom: 100px;
     border-radius: 30px;
+    background-repeat: no-repeat;
 }
 
 /* Footer */
@@ -870,14 +891,10 @@ span {
     text-align: right;
     padding-right: 50px;
     width: 50%;
+    color: white;
 }
 
 .footer-right p {
-    align-self: flex-end;
     margin-top: 20px;
-    text-align: right;
-    padding-right: 50px;
-    width: 50%;
-    color: white;
-
 }
+

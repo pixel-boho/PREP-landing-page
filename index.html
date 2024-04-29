@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/core.css">
     <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/responsive-mobile.css">
 
     <style>
 
@@ -20,16 +21,16 @@
         <div class="navbar-logo">
             <img src="/assets/prepacademy 1.png" alt="">
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+        </button> -->
+        <div class="navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ml-auto">
                 <div class="text-left">
-                    <div>
+                    <div class="navbar-lang-button">
                         <button type="button"
-                            class="justify-center w-full rounded-md border border-zinc-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-zinc-700 hover:bg-zinc-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-100 focus:ring-indigo-500"
+                            class="justify-center w-full rounded-md border border-zinc-300 shadow-sm bg-white text-sm font-medium text-zinc-700 hover:bg-zinc-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-100 focus:ring-indigo-500"
                             id="menu-button" aria-expanded="true" aria-haspopup="true">
                             Select Language
                             <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -42,76 +43,71 @@
                     </div>
                 </div>
                 <a class="btn-black">Enquire Now</a>
-            </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Header -->
-    <section>
-        <div class="header">
-            <div class="left-section">
+    <div class="container">
+        <div class="row header">
+            <div class="col-lg-7">
                 <div class="header-title">
                     <h1>Make Yourself an <br>IIM Alumini</h1>
                 </div>
                 <div class="header-points">
-                    <img src="/assets/images/icons/Group 237640.png" alt="Icon" width="30" height="30">
+                    <img src="/assets/images/icons/Group 237640.png" alt="Icon">
                     <h3>CAT Online and Offline Classes. Cover your syllabus well in advance with a regular flow of live
                         online or classroom classes.</h3>
                 </div>
                 <div class="header-points">
-                    <img src="/assets/images/icons/Group 237641.png" alt="Icon" width="30" height="30">
+                    <img src="/assets/images/icons/Group 237641.png" alt="Icon">
                     <h3>Regular Tests. Chapter tests, part tests and Mock Tests are held regularly to help you
                         introspect
                     </h3>
                 </div>
                 <div class="header-points">
-                    <img src="/assets/images/icons/Group 237642.png" alt="Icon" width="30" height="30">
+                    <img src="/assets/images/icons/Group 237642.png" alt="Icon">
                     <h3>Mentoring. Regular mentoring by our esteemed Mentors from top engineering colleges.</h3>
                 </div>
-                <style>
-                    .header-points {
-                        color: #fff;
-                        background-color: transparent;
-                        display: flex;
-                        align-items: center;
-                        padding: 10px 20px;
-                    }
-
-                    .header-points img {
-                        margin-right: 10px;
-                        height: 150px;
-                        width: 150px;
-                    }
-                </style>
             </div>
-            <div class="right-section">
+            <div class="col-lg-5">
                 <div class="form-container">
                     <h3>Fast Track Your CAT Preparation</h3>
                     <form id="myForm">
-                        <label for="name" class="label-input-form">Name*</label>
-                        <input type="text" class="form-input" placeholder="Name" required>
-                        <label for="mobile number" class="label-input-form">Mobile*</label>
-                        <input type="text" class="form-input" placeholder="Mobile Number" required>
-                        <label for="email" class="label-input-form">Email</label>
-                        <input type="email" class="form-input" placeholder="Email" required>
-                        <label for="pincode" class="label-input-form">Pincode</label>
-                        <input type="text" class="form-input" placeholder="Pincode" required>
-                        <label for="" class="label-input-form">School / Institute</label>
-                        <input type="text" class="form-input" placeholder="School / Institute" required>
+                        <div class="form-group">
+                            <label for="name" class="label-input-form">Name*</label>
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile number" class="label-input-form">Mobile*</label>
+                            <input type="text" class="form-control" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="label-input-form">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pincode" class="label-input-form">Pincode</label>
+                            <input type="text" class="form-control" placeholder="Pincode" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="label-input-form">School / Institute</label>
+                            <input type="text" class="form-control" placeholder="School / Institute" required>
+                        </div>
                         <div class="form-button-submit">
-                            <button type="submit" class="form-button">Request a Call Back</button>
+                            <button type="submit" class="btn btn-primary form-button">Request a Call Back</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <div class="crack-cat-main">
         <div class="row">
             <div class="col">
                 <div class="crack-cat-1">
-                    <h2>Crack CAT & Other MBA Entrance Tests with <br></h2>
+                    <h2>Crack CAT & Other MBA Entrance Tests with<br></h2>
                     <h1><span>Prep </span>Academy</h1>
                     <p>Welcome to Prep Academy, your premier destination for unlocking the potential within you and
                         achieving
@@ -128,16 +124,18 @@
     </div>
 
     <!-- Why Study with us -->
-    <div class="why-us p-5">
-        <div class="why-us-content">
-            <h2>Why Study <span>With Us?</span></h2>
-            <p>Are you ready to conquer the world? Your CAT 2024 journey might seem daunting, but remember, every
-                great
-                achievement starts with a single step. Believe in yourself, because you hold the power to make your
-                dreams a
-                reality!</p>
+    <section class="why-study-with">
+        <div class="why-us">
+            <div class="why-us-content">
+                <h2>Why Study <span>With Us?</span></h2>
+                <p>Are you ready to conquer the world? Your CAT 2024 journey might seem daunting, but remember, every
+                    great
+                    achievement starts with a single step. Believe in yourself, because you hold the power to make your
+                    dreams a
+                    reality!</p>
+            </div>
         </div>
-    </div>
+    </section>
 
     <div class="container-lg">
         <div class="row card-main">
@@ -218,6 +216,7 @@
         </div>
     </div>
 
+
     <!-- Classroom-Offline -->
     <div class="container-fluid container-fluid-custom justify-content-center">
         <div class="classroom-container">
@@ -265,8 +264,8 @@
     <section>
         <div class="container-youtube-promo">
             <div class="row youtube-promo">
-                <div class="col">
-                    <h2>Crack CAT & Other MBA <br>Entrance Tests with Unacademy</h2>
+                <div class="col-md-12 col-lg-6">
+                    <h2>Crack CAT & Other MBA <br>Entrance Tests with Prep Academy</h2>
                     <div class="yt-promo-video">
                         <iframe width="100%" height="412" src="https://www.youtube.com/embed/GjPIvvxIQME"
                             title="Cute Pika Steals Food From Neighbours | 4K UHD | Mammals | BBC Earth" frameborder="0"
@@ -274,9 +273,9 @@
                             referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                 </div>
-                <div class="col align-self-end">
+                <div class="col-md-12 col-lg-6 align-self-end">
                     <div class="small-yt-container">
-                        <div class="p-5">
+                        <div class="p-3 p-lg-5">
                             <h4>CAT 2024 SUCCESS MANTRA</h4>
                             <h2>Crack CAT & Other MBA Entrance Tests with Prep Acdemy</h2>
                             <h3>576,969 views . 3 weeks ago</h3>
@@ -421,7 +420,9 @@
                 <h2>Get Subscription to start your preparation.</h2>
                 <p>"Begin your journey to success today! Subscribe now and take the first step towards turning your
                     aspirations into reality with our valuable insights and resources."</p>
-                <a href="#" class="subscription-btn">View Subscription Plans</a>
+                <div class="text-center">
+                    <a href="#" class="subscription-btn">View Subscription Plans</a>
+                </div>
             </div>
         </div>
     </div>
@@ -584,23 +585,22 @@
         </div>
     </div>
 
-    <section style="background-color: black; display: flex;">
-        <div style="width: 50%;" class="footer-container">
+    <!-- footer -->
+    <section class="footer-container-fluid">
+        <div class="footer-container">
             <div class="footer">
-                <div class="row">
-                    <div class="col">
-                        <h2>Do you have <br>any questions?</h2>
-                        <h4>Feel free to send us your questions or request a free consultation.</h4>
-                        <a href="#" class="footer-action-call">GET A CALLBACK</a>
-                        <div class="footer-info">
-                            <div class="footer-mail">
-                                <p>Email</p>
-                                <h5>info@prepacademy.in</h5>
-                            </div>
-                            <div class="footer-hours">
-                                <p>OPENING HOURS</p>
-                                <h5>09:00 AM To 05:30 PM</h5>
-                            </div>
+                <div class="col">
+                    <h2>Do you have <br>any questions?</h2>
+                    <h4>Feel free to send us your questions or request a free consultation.</h4>
+                    <a href="#" class="footer-action-call">GET A CALLBACK</a>
+                    <div class="footer-info">
+                        <div class="footer-mail">
+                            <p>Email</p>
+                            <h5>info@prepacademy.in</h5>
+                        </div>
+                        <div class="footer-hours">
+                            <p>OPENING HOURS</p>
+                            <h5>09:00 AM To 05:30 PM</h5>
                         </div>
                     </div>
                 </div>
@@ -612,6 +612,7 @@
             <img src="/assets/images/logo-footer.png" alt="" class="logo-footer">
         </div>
     </section>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
