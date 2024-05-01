@@ -1,27 +1,39 @@
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
     body {
         margin-left: 0px;
         margin-right: 0px;
     }
 
     .navbar-nav button {
-        padding: 0px;
+        font-size: 15px;
+        width: 191px;
     }
 
     .navbar-lang-button {
         justify-content: center;
         display: flex;
         margin-top: 20px;
+        height: 57px;
+    }
+
+    .navbar-nav .text-left {
+        justify-content: center;
+        display: flex;
     }
 
     .btn-black {
         display: none;
     }
 
+    .navbar-nav svg {
+        height: 56px;
+    }
+
     /* Header */
 
     .header {
-        margin-top: 0px;
+        margin: 0px;
+        width: 100%;
     }
 
     .header-title h1 {
@@ -41,6 +53,11 @@
         padding: 20px;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-sec {
+        width: 100%;
+        height: 100vh;
     }
 
     /* Crack CAT MBA */
@@ -74,6 +91,10 @@
 
     .why-us h2 {
         font-size: 250%;
+    }
+
+    .why-us p {
+        height: 100px;
     }
 
     .why-study-with .p-5 {
@@ -164,6 +185,15 @@
         padding-top: 25px;
     }
 
+    .footer-right-section img {
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer-right-section p {
+        text-align: left;
+    }
+
     .footer-container h2 {
         padding: 0;
     }
@@ -177,8 +207,8 @@
         padding: 0;
     }
 
-    .faq-sm-box {
-        margin-top: 50px;
+    .faq-main {
+        margin-bottom: 50px;
     }
 
     .faq-main h2 {
@@ -188,6 +218,22 @@
 
     .faq-box .faq-action-call {
         text-align: center;
+    }
+
+    .faq-box {
+        height: 637px;
+    }
+
+    .faq-sm-box {
+        margin-left: 0;
+    }
+
+    .classroom-offline-img img {
+        display: none;
+    }
+
+    .container-btm-fm {
+        height: 166vh;
     }
 
     /* Subscription */
