@@ -47,6 +47,15 @@ a:hover {
 .navbar-lang-button {
     background-color: orange;
     width: 240px;
+    border-radius: 11.55px;
+}
+
+.navbar-lang-button button {
+    border-radius: 11.55px;
+}
+
+.navbar-lang-button svg {
+    color: white;
 }
 
 
@@ -175,14 +184,20 @@ a:hover {
 
 /* Crack CAT MBA */
 
+.crack-cat-main {
+    background-color: white;
+    border-radius: 30px;
+}
+
 .crack-cat-main .row {
     display: flex;
     align-items: center;
-    /* Align items vertically */
 }
 
 .crack-cat-main .col {
     flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .crack-cat-main img {
@@ -193,6 +208,7 @@ a:hover {
 .crack-cat-1 {
     text-align: left;
     margin-left: 40px;
+    padding-top: 100px;
 }
 
 .crack-cat-1 h2 {
@@ -245,7 +261,22 @@ span {
     height: 100px;
 }
 
-.why-us h2, span {
+.why-us-content h2 span::after {
+    content: "";
+    display: block;
+    width: 50%;
+    /* Adjust the width as needed */
+    height: 3px;
+    /* Adjust the thickness of the underline */
+    background-color: #FD661F;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+
+.why-us h2,
+span {
     font-family: 'Product Sans Black', Arial, sans-serif;
     font-size: 60px;
 }
@@ -339,6 +370,13 @@ span {
     position: relative;
     overflow: hidden;
     width: 100%;
+    padding-top: 100px;
+}
+
+.container-header-fm-btm {
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .form-sec {
@@ -425,7 +463,7 @@ span {
     background-color: #FD661F;
     border-radius: 11.94px;
     color: white;
-
+    box-shadow: 10px 10px 0px 0px rgba(11, 112, 119, 1);
 }
 
 .classroom-offline-img img {
@@ -457,6 +495,14 @@ span {
 
 .classroom-container .class-offline-btn {
     margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+}
+
+.class-offline-btn img {
+    height: 29px;
+    width: 29px;
 }
 
 .container-fluid-custom {
@@ -794,10 +840,15 @@ span {
     font-size: 43.15px;
     color: #FD661F;
     line-height: 1;
+    margin-bottom: 45px;
 }
 
 .explanation {
     margin-bottom: 10px;
+}
+
+.explanation p {
+    margin-bottom: 30px;
 }
 
 .image-container {
@@ -878,5 +929,3 @@ span {
 .footer-right-section {
     text-align: right;
 }
-
-
