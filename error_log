@@ -1,0 +1,39 @@
+[05-May-2024 04:46:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'pixelboho_camb.registrations' doesn't exist in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php:16
+Stack trace:
+#0 /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php(16): mysqli->prepare()
+#1 {main}
+  thrown in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 16
+[05-May-2024 04:46:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'pixelboho_camb.registrations' doesn't exist in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php:16
+Stack trace:
+#0 /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php(16): mysqli->prepare()
+#1 {main}
+  thrown in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 16
+[05-May-2024 04:47:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'pixelboho_camb.registrations' doesn't exist in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/view.php:88
+Stack trace:
+#0 /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/view.php(88): mysqli->query()
+#1 {main}
+  thrown in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/view.php on line 88
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "name" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 20
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "mobile" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 21
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "email" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 22
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "pincode" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 23
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "school" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 24
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "datetime" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 25
+[10-May-2024 10:39:04 UTC] PHP Warning:  Undefined array key "ip_address" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 26
+[10-May-2024 10:39:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'name' cannot be null in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php:27
+Stack trace:
+#0 /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 27
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "name" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 20
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "mobile" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 21
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "email" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 22
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "pincode" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 23
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "school" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 24
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "datetime" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 25
+[07-Jun-2024 07:10:10 UTC] PHP Warning:  Undefined array key "ip_address" in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 26
+[07-Jun-2024 07:10:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'name' cannot be null in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php:27
+Stack trace:
+#0 /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php(27): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/pixelboho/public_html/prep-agency-Campaigns/agency-105/submit.php on line 27
